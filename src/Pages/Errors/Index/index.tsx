@@ -1,3 +1,3 @@
 export const ErrorPage = () => {
-  return <>HomePage</>
-}
+  return <>HomePage</>;
+};
