@@ -7,7 +7,7 @@ interface NavBarChildInterface {
 
 export const NavBar = (child: NavBarChildInterface) => {
   return (
-    <div className="w-full top-0 left-0 flex flex-row bg-living-coral absolute">
+    <div className="w-full top-0 left-0 flex flex-row bg-living-coral text-whitesmoke absolute">
       <div className="w-full flex flex-row">
         <a
           className="py-6 px-4 hover:bg-w-overlay hover:opacity-60 hover:cursor-pointer"
