@@ -8,8 +8,10 @@ export default {
       whitesmoke: "#f5f5f5",
       "living-coral": "#fe6e61",
       overlay: "rgba(0,0,0,.6)",
+      "w-overlay": "rgba(245,245,245,.4)",
     },
     extend: {},
   },
+  darkMode: "class",
   plugins: [],
 };
