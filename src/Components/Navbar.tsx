@@ -12,12 +12,16 @@ export const NavBar = (child: NavBarChildInterface) => {
         <a
           className="py-6 px-4 hover:bg-w-overlay hover:opacity-60 hover:cursor-pointer"
           id="home"
+          href="/"
         >
           แดกอะไรดี
         </a>
       </div>
       <div className="w-[10%] md:w-full flex flex-row justify-end">
-        <a className="py-6 px-4 hover:bg-w-overlay hover:opacity-60 hover:cursor-pointer">
+        <a
+          className="py-6 px-4 hover:bg-w-overlay hover:opacity-60 hover:cursor-pointer"
+          href="/list"
+        >
           เมนูทั้งหมด
         </a>
         <button

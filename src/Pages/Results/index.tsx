@@ -14,7 +14,7 @@ export const ResultPage = (_child: ThemeInterface) => {
     let i: number = 0;
 
     let x = setInterval(() => {
-      if (i > 20) {
+      if (i > 50) {
         clearInterval(x);
       } else {
         if (param.get("sp") != null) {
@@ -24,7 +24,7 @@ export const ResultPage = (_child: ThemeInterface) => {
         }
         i++;
       }
-    }, 100);
+    }, 50);
   }, [seed]);
 
   return (
