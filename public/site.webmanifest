@@ -1,0 +1,37 @@
+{
+  "name": "แดกอะไรดี",
+  "short_name": "แดกไร",
+  "description": "หิวแดกข้าว ห้าวแดกตีนกูนี่แหละ",
+  "icons": [
+    {
+      "src": "/pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "/pwa/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/apple-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#f5f5f5",
+  "background_color": "#fe6e6f",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait"
+}
